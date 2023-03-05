@@ -1,38 +1,169 @@
-.App {
-  text-align: center;
-}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* navbar start */
+::placeholder {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.link-fs {
+  font-size: 14px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.margin-dd {
+  /* margin-right: 70px; */
+  padding-right: 42px;
+}
+
+@media (min-width:768px) and (max-width:1199.98px) {
+  .margin-dd {
+    padding-right: 55px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (min-width:576px) and (max-width:767.98px) {
+  .margin-dd {
+    padding-right: 55px;
   }
+}
+
+
+@media (min-width:350px) and (max-width:650.98px) {
+  .dropdown {
+    position: absolute;
+    left: 35%;
+  }
+}
+
+
+
+/* navbar end */
+
+
+
+/* Toprepositories start */
+.toprepo-button {
+  width: 75px;
+  padding: 3px 12px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.toprep-height {
+  min-height: 95vh;
+}
+
+.toprep-fs {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.toprep-fs>p:hover {
+  text-decoration: underline;
+}
+
+.toprep-input>input::placeholder {
+  color: rgb(179, 164, 164);
+}
+
+.p-hoverlink:hover {
+  text-decoration: none;
+  color: blue !important;
+}
+
+/* Toprepositories end */
+
+
+
+/* center start */
+.btn-outline-success {
+  width: 44px;
+  font-weight: 500;
+  font-size: 100%;
+  height: 25px;
+  border-radius: 100px;
+}
+
+
+.center-top>h6:hover {
+  background: lightgray;
+}
+
+.center-p>span {
+  color: #0969da;
+}
+
+.center-p>span:hover {
+  text-decoration: underline;
+}
+
+.btn-outline-primary:hover {
+  color: white !important;
+}
+
+.footer-fs>small>span {
+  color: #0969da;
+}
+
+
+.footer-fs>small>span:hover {
+  text-decoration: underline;
+}
+
+.small-1:hover {
+  color: #0969da;
+  text-decoration: underline;
+}
+
+.list-unstyled>li>small {
+  font-size: 12px;
+}
+
+.list-unstyled>li>small:hover {
+  color: #0969da;
+  text-decoration: underline;
+}
+
+
+
+
+@media (min-width:576px) and (max-width:767.98px) {
+  #show-more {
+    border-bottom: 1px solid gray !important;
+  }
+}
+
+
+
+/* right start */
+.right-p-hover:hover {
+  text-decoration: underline;
+  color: #0969da;
+}
+
+
+
+
+/* repositoreis star */
+.repositories-ul>li:hover {
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+
+.repo-input::placeholder {
+  color: rgb(158, 148, 148);
+  font-size: 15px;
+}
+
+.repo-input:hover {
+  border: 1px solid blue !important;
+}
+
+.repo-input:focus {
+  outline: 2px solid blue !important;
+}
+
+
+.repos-list {
+  font-size: 15px;
 }
