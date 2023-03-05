@@ -53,9 +53,9 @@ function Repositories() {
               </div>
 
               <div className="col-12 col-md-6 col-lg-8 py-2 d-flex justify-content-center justify-content-md-start justify-content-lg-end flex-wrap">
-                <button className='btn btn-outline-secondary ms-3'>Type</button>
+                <button className='btn btn-outline-secondary ms-1'>Type</button>
                 <button className='btn btn-outline-secondary ms-1'>Language</button>
-                <button className='btn btn-outline-secondary ms-3 ms-lg-1'>Sort</button>
+                <button className='btn btn-outline-secondary ms-1 ms-lg-1'>Sort</button>
                 <button className='btn btn-success ms-2 ms-lg-3'>
                   <Link className='text-decoration-none text-white' to="/new">
                     <i className="bi bi-book px-1"></i>

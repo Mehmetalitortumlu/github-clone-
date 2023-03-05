@@ -54,7 +54,7 @@ function NewRepo() {
               <div className="col-3 ">
                 {/* sol boşluk */}
               </div>
-              <div className="col-12 col-md-6 py-2 border-b">
+              <div className="col-12 col-md-8 col-lg-6 py-2 border-b">
 
                 <div className='d-flex'>
                   <h6 className='px-5'>Owner <span className='text-danger'>*</span> </h6>
@@ -163,19 +163,19 @@ function NewRepo() {
                 </div>
 
                 <footer className='mt-4'>
-                  <ul className='list-unstyled d-flex  '>
-                    <li className='text-muted px-2'><i className="bi bi-github"></i> <small>  2023 GitHub, Inc </small> </li>
+                  <ul className='list-unstyled d-flex flex-wrap justify-content-center justify-content-lg-start  '>
+                    <li className='text-muted px-2'><i className="bi bi-github"></i> <small>2023 GitHub,Inc </small></li>
                     <li className='text-primary px-1 px-lg-2'><small>Terms</small></li>
                     <li className='text-primary px-1 px-lg-2'><small>Privacy</small></li>
                     <li className='text-primary px-1 px-lg-2'><small>Security</small></li>
-                    <li className='text-primary px-1 px-lg-2'><small>Status</small></li>
-                    <li className='text-primary px-1 px-lg-2'><small>Docs</small></li>
-                    <li className='text-primary px-1 px-lg-2'> <small>Contact GitHub</small></li>
-                    <li className='text-primary px-1 px-lg-2'><small>Pricing</small></li>
-                    <li className='text-primary px-1 px-lg-2'><small>API</small></li>
-                    <li className='text-primary px-1 px-lg-2'><small>Training</small></li>
-                    <li className='text-primary px-1 px-lg-2'><small>Blog</small></li>
-                    <li className='text-primary px-1 px-lg-2'><small>About</small></li>
+                    <li className='text-primary px-1'><small>Status</small></li>
+                    <li className='text-primary px-1'><small>Docs</small></li>
+                    <li className='text-primary px-1'> <small>Contact GitHub</small></li>
+                    <li className='text-primary px-1'><small>Pricing</small></li>
+                    <li className='text-primary px-1'><small>API</small></li>
+                    <li className='text-primary px-1'><small>Training</small></li>
+                    <li className='text-primary px-1'><small>Blog</small></li>
+                    <li className='text-primary px-1'><small>About</small></li>
                   </ul>
                 </footer>
               </div>
