@@ -20,10 +20,11 @@
   }
 }
 
-@media (min-width:576px) and (max-width:767.98px) {
+@media (min-width:276px) and (max-width:767.98px) {
   .margin-dd {
-    padding-right: 55px;
+    padding-right: 25px;
   }
+ 
 }
 
 
@@ -49,7 +50,7 @@
 }
 
 .toprep-height {
-  min-height: 95vh;
+  min-height: 55vh;
 }
 
 .toprep-fs {
@@ -150,6 +151,15 @@
 }
 
 
+@media (min-width:326px) and (max-width:667.98px) {
+
+  .repos-list {
+    font-size: 10px !important;
+  }
+}
+
+
+
 .repo-input::placeholder {
   color: rgb(158, 148, 148);
   font-size: 15px;
@@ -171,13 +181,14 @@
 
 /* Notfound start */
 
-.notfound>.bg-light{
+.notfound>.bg-light {
   min-height: 100vh !important;
 }
+
 #notfound-link:hover {
   font-size: 20px;
 }
 
-#notfound-link>a:hover{
+#notfound-link>a:hover {
   text-decoration: underline !important;
 }

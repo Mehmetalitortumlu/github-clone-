@@ -5,7 +5,7 @@ function Toprepositories() {
     return (
             
                 <div className="col-md-6 col-lg-3 col-xxl-3 py-5 px-4 bg-white toprep-height border-end">
-                    <div className='d-flex justify-content-between'>
+                    <div className='d-flex justify-content-between toprep-fs'>
                         <h6 className='mt-1'>Top Repositories</h6>
                         <button className='btn btn-success toprepo-button'>
                             <i className="bi bi-folder-plus pe-2"></i>
@@ -54,7 +54,7 @@ function Toprepositories() {
                     <div>
                         <h6 className='opacity-75'>Recent activity</h6>
                         <div className=' text-center'>
-                            <p className='py-3' style={{ fontSize: "12px", color: "gray", border: "dotted 1px lightgray" }}>
+                            <p className='pt-3' style={{ fontSize: "12px", color: "gray", border: "dotted 1px lightgray" }}>
                                 When you take actions across. Github, we'll <br />
                                 provide links to that activity here.
                             </p>

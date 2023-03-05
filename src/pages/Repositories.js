@@ -11,26 +11,25 @@ function Repositories() {
 
       <div className='container-md py-4 px-5'>
         <div className="row">
-
           <div className="col-12 border-bottom">
             <ul className='list-unstyled d-flex justify-content-center flex-wrap repositories-ul '>
-              <li className='px-3  repos-list'>
+              <li className='px-lg-3 repos-list'>
                 <i className="bi bi-book px-1"></i>
                 Overview
               </li>
-              <li className='px-3 repos-list'>
+              <li className='px-lg-3 repos-list'>
                 <i className="bi bi-journal-arrow-up px-1"></i>
                 Repositories
               </li>
-              <li className='px-3 repos-list'>
+              <li className='px-lg-3 repos-list'>
                 <i className="bi bi-terminal-split px-1"></i>
                 Projects
               </li>
-              <li className='px-3 repos-list'>
+              <li className='px-lg-3 repos-list'>
                 <i className="bi bi-box px-1" ></i>
                 Packages
               </li>
-              <li className='px-4 repos-list'>
+              <li className='px-lg-3 repos-list'>
                 <i className="bi bi-star px-1"></i>
                 Star
               </li>
@@ -52,13 +51,16 @@ function Repositories() {
                 <input type="text" placeholder='Find a repository...' className='w-100 px-2 py-1 border rounded text-dark repo-input ' />
               </div>
 
-              <div className="col-12 col-md-6 col-lg-8 py-2 d-flex justify-content-center justify-content-md-start justify-content-lg-end flex-wrap">
-                <button className='btn btn-outline-secondary ms-1'>Type</button>
-                <button className='btn btn-outline-secondary ms-1'>Language</button>
-                <button className='btn btn-outline-secondary ms-1 ms-lg-1'>Sort</button>
-                <button className='btn btn-success ms-2 ms-lg-3'>
+              <div className="col-12 col-md-6 col-lg-8 py-2 d-flex
+              justify-content-center justify-content-md-start justify-content-lg-end flex-wrap">
+                <button className='btn btn-outline-secondary ms-lg-1'>Type</button>
+                <button className='btn btn-outline-secondary ms-lg-1'>
+                  <small>Language</small>
+                </button>
+                <button className='btn btn-outline-secondary ms-lg-1 ms-lg-1'>Sort</button>
+                <button className='btn btn-success  ms-lg-3'>
                   <Link className='text-decoration-none text-white' to="/new">
-                    <i className="bi bi-book px-1"></i>
+                    <i className="bi bi-book px-lg-1"></i>
                     New
                   </Link>
                 </button>

@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 
 function Navbar() {
     return (
-        <nav className="navbar px-4 navbar-expand-lg navbar-dark bg-dark ">
+        <nav className="navbar px-1 px-lg-4 navbar-expand-lg navbar-dark bg-dark ">
             <div className="container-fluid">
-                {/* github icon */}
+                {/* github icon */} 
                 <Link className="navbar-brand" to="/">
                     <i className="bi bi-github fs-2 "></i>
                 </Link>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Center() {
     return (
-        <div className="col-md-6 col-lg-6 col-xxl-6 mt-4 px-4">
+        <div className="col-md-6 col-lg-6 col-xxl-6 mt-lg-3 px-4">
 
             <div className='d-flex center-top border-bottom'>
                 <h6 className=' p-2'>Following</h6>
@@ -13,7 +13,7 @@ function Center() {
                 </h6>
             </div>
 
-            <div className='mt-4 mx-2 bg-white p-4 ps-5 border rounded'>
+            <div className='mt-lg-4 mx-2 bg-white p-4 ps-5 border rounded'>
                 <h4 className='mb-3'>Discover interesting projects and people to populate your personal news feed.</h4>
                 <p className='text-muted center-p'>
                     Your news feed helps you keep up with recent activity on repositories you
