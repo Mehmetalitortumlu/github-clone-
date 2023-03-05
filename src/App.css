@@ -167,3 +167,17 @@
 .repos-list {
   font-size: 15px;
 }
+
+
+/* Notfound start */
+
+.notfound>.bg-light{
+  min-height: 100vh !important;
+}
+#notfound-link:hover {
+  font-size: 20px;
+}
+
+#notfound-link>a:hover{
+  text-decoration: underline !important;
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Toprepositories() {
     return (
@@ -8,7 +9,7 @@ function Toprepositories() {
                         <h6 className='mt-1'>Top Repositories</h6>
                         <button className='btn btn-success toprepo-button'>
                             <i className="bi bi-folder-plus pe-2"></i>
-                            <span>New</span>
+                            <Link to={"/new"} className='text-white text-decoration-none'><span>New</span></Link>
                         </button>
                     </div>
                     <div className='py-2 toprep-input'>
