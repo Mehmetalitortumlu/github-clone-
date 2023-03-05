@@ -1,7 +1,7 @@
 import React from 'react'
-import Center from './Center'
-import Right from './Right'
-import Toprepositories from './Toprepositories'
+import Center from './Main-Center'
+import Right from './Main-Right'
+import Toprepositories from './Main-Left'
 
 function Main() {
     return (
