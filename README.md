@@ -1,4 +1,9 @@
+#Github clone
+## https://githubclones.netlify.app
+
 # Getting Started with Create React App
+
+### Merhaba, bu projede github anasayfasını, repositories sayfasını ve repositories ekleme(new) sayfasını bootstrap-5 kullanarak yaptım. Aynı zamanda news sayfasına girip girdileri doldurarak repositories sayfasına yeni repo ekleyebiliyorum. Projeyi React.js ile yaptım ve react-router-dom'u kullandım.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
